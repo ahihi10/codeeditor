@@ -5,7 +5,7 @@ export default defineSchema ({
     users: defineTable({
         userId: v.string(),
         email: v.string(),
-        main: v.string(),
+        name: v.string(),
         isPro: v.boolean(),
         proSince: v.optional(v.float64()),
         lemonSqueezyCustomerId: v.optional(v.string()),
